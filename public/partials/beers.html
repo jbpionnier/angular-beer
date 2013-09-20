@@ -1,0 +1,29 @@
+
+<div class="page-header">
+  <h1>
+    Ma bièrothèque
+    <small></small>
+     <a href="#/beers/create" class="btn btn-primary">Ajouter une bière</a>
+  </h1>
+</div>
+
+<div class="row">
+  <form class="form-search pull-right">
+    <input type="text" class="input-medium search-query" placeholder="Search">
+  </form>
+</div>
+
+<ul class="thumbnails">
+    <li ng-repeat="beer in beers | orderBy:predicate:reverse" class="span12">
+        <img ng-src="{{beer.poster}}" class="span2">
+        <div class="caption">
+            <h3>
+                <a href="#/beers/{{beer.id}}">{{beer.name | uppercase}}</a>
+            </h3>
+            <p><b>Type : </b>{{beer.type}}</p>
+            <p><b>Alcohol : </b>{{beer.alcohol | number:1}}</p>
+            <p><b>Price : </b>{{beer.price | number:2}}</p>
+            <p><b>Note : </b>{{beer.rate | stars}}</p>
+        </div>
+    </li>
+</ul>
