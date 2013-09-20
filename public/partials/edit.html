@@ -1,0 +1,30 @@
+<div class="row-fluid">
+  <a href class="btn btn-danger pull-right" ng-click="delete(beer)" ng-show="beer.id"><i class="icon-trash"></i> Delete</a>
+</div>
+
+<form class="form-horizontal" ng-submit="update(beer)">
+  <div class="control-group">
+    <label class="control-label">Nom :</label>
+    <input type="text" ng-model="beer.name">
+  </div>
+  <div class="control-group">
+    <label class="control-label">Type :</label>
+    <input type="text" ng-model="beer.type">
+  </div>
+  <div class="control-group">
+    <label class="control-label">Alcool :</label>
+    <input type="text" ng-model="beer.alcohol">
+  </div>
+  <div class="control-group">
+    <label class="control-label">Prix : </label>
+    <input type="text" ng-model="beer.price">
+  </div>
+  <div class="control-group">
+    <label class="control-label">Note : </label>
+    <input type="number" ng-model="beer.rate">
+  </div>
+  <div class="form-actions">
+    <a href="#/beers" class="btn btn-danger btn-small">Annuler</a>
+    <button class="btn btn-success" type="submit">{{beer.id != null && 'Modifier' || 'Ajouter'}}</button>
+  </div>
+</form>
