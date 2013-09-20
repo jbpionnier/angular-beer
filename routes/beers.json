@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "name": "Kwak",
+    "price": 2.05,
+    "type": "Ambrée",
+    "alcohol": 8.1,
+    "poster": "img/kwak.jpg",
+    "rate": 4
+  },
+  {
+    "id": 1,
+    "name": "Triple Karmeliet",
+    "price": 2.15,
+    "type": "Blonde",
+    "alcohol": 8,
+    "poster": "img/karmeliet.jpg",
+    "rate": 5
+  },
+  {
+    "id": 2,
+    "name": "Leffe",
+    "price": 2.20,
+    "type": "Blonde",
+    "alcohol": 6.6,
+    "poster": "img/leffe.jpg",
+    "rate": 2
+  },
+  {
+    "id": 3,
+    "name": "Kasteel",
+    "price": 2.30,
+    "type": "Blonde",
+    "alcohol": 7,
+    "poster": "img/kasteel.jpg",
+    "rate": 4
+  },
+  {
+    "id": 4,
+    "name": "Chimay Bleue",
+    "price": 2.65,
+    "type": "Brune",
+    "alcohol": 9,
+    "poster": "img/chimay-bleue.jpg",
+    "rate": 5
+  },
+  {
+    "id": 5,
+    "name": "Maredsous Brune",
+    "price": 2.40,
+    "type": "Brune",
+    "alcohol": 8,
+    "poster": "img/maredsous-brune.jpg",
+    "rate": 3
+  },
+  {
+    "id": 6,
+    "name": "Jupiler",
+    "price": 2.20,
+    "type": "Blonde",
+    "alcohol": 5.2,
+    "poster": "img/jupiler.jpg",
+    "rate": 1
+  },
+  {
+    "id": 7,
+    "name": "Queue de Charrue",
+    "price": 2.45,
+    "type": "Blonde",
+    "alcohol": 9,
+    "poster": "img/queuecharrue.jpg",
+    "rate": 3
+  },
+  {
+    "id": 8,
+    "name": "Affligem",
+    "price": 2.35,
+    "type": "Blonde",
+    "alcohol": 6.8,
+    "poster": "img/affligem.jpg",
+    "rate": 3
+  },
+  {
+    "id": 9,
+    "name": "Bush Ambrée",
+    "price": 2.65,
+    "type": "Ambrée",
+    "alcohol": 12,
+    "poster": "img/bush-ambree.jpg",
+    "rate": 2
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "name": "angular-beer",
+  "dependencies": {
+    "angular": "~1.0.8",
+    "angular-resource": "~1.0.8"
+  }
+}
