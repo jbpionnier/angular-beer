@@ -46,7 +46,7 @@ app.configure(function(){
   app.use(function(err, req, res, next) {
     if("UNAUTHORIZED" == err.message) {
       res.header('WWW-Authenticate', 'Basic realm="WallyWorld"')
-      res.send(401, '')
+      res.send(401, req._user)
     }
     next(err);
   });

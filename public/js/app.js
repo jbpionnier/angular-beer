@@ -38,15 +38,15 @@ beerApp.config(['$routeProvider', '$logProvider', 'sfReaccessServiceProvider',
     // Setting templated rights
     sfReaccessServiceProvider.setPredefinedRights({
       'BEER_ADD':  {
-        path: '/beers',
+        path: '/api/beers',
         methods: ['POST']
       },
       'BEER_EDIT':{
-        path: '/beers/:id',
+        path: '/api/beers/:id',
         methods: ['PUT', 'PATCH']
       },
       'BEER_DELETE':  {
-        path: '/beers/:id',
+        path: '/api/beers/:id',
         methods: ['DELETE']
       }
     });
