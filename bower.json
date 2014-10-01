@@ -1,7 +1,9 @@
 {
   "name": "angular-beer",
   "dependencies": {
-    "angular": "~1.0.8",
-    "angular-resource": "~1.0.8"
+    "angular": "~1.2.5",
+    "angular-resource": "~1.0.8",
+    "angular-reaccess": "git@github.com:SimpliField/angular-reaccess.git",
+    "angular-route": "~1.2.25"
   }
 }
