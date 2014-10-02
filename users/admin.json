@@ -1,0 +1,10 @@
+{
+  "username": "admin",
+  "rights" : [{
+    "path": "/api/.*",
+    "methods": 127
+  }, {
+    "path": "/.*",
+    "methods": 7
+  }]
+}

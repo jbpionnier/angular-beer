@@ -1,0 +1,16 @@
+{
+  "username": "user",
+  "rights" : [{
+    "path": "/profile",
+    "methods": 127
+  }, {
+    "path": "/api/beers/1",
+    "methods": 127
+  }, {
+    "path": "/api/beers/2",
+    "methods": 63
+  }, {
+    "path": "/.*",
+    "methods": 7
+  }]
+}
