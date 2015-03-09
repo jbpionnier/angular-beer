@@ -2,6 +2,6 @@
 
 beerApp.factory('Beer', function ($resource) {
 
-    return $resource('api/beers/:id', {id: '@id'});
+  return $resource('api/beers/:id', {id: '@id'});
 
 });
