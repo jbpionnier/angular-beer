@@ -1,7 +1,8 @@
 {
   "name": "angular-beer",
   "dependencies": {
-    "angular": "~1.0.8",
-    "angular-resource": "~1.0.8"
+    "angular": "~1.3.14",
+    "angular-resource": "~1.3.14",
+    "angular-route": "~1.3.14"
   }
 }
